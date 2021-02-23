@@ -1,0 +1,70 @@
+#toolbarContaine, #summaryToolbarContainerr {
+    button {
+        padding: 3px 10px;
+        margin: 0 5px;
+        line-height: 18px;
+    }
+}
+
+.ql-editor {
+    .fact-list {
+        li::before {
+            content: url('/storage/icons/circle-regular.svg');
+            width: 8px;
+            height: 8px;
+        }
+    }
+    .abstraction-list {
+        li::before {
+            content: url('/storage/icons/circle-solid.svg');
+            width: 8px;
+            height: 8px;
+        }
+    }
+    .action-list {
+        li::before {
+            content: url('/storage/icons/star-solid.svg');
+            width: 8px;
+            height: 8px;
+        }
+    }
+}
+
+.content, .summary {
+    ul.fact-list {
+        list-style: url('/storage/icons/circle-regular.svg');
+        padding-left: 20px;
+    }
+    ul.abstraction-list {
+        list-style: url('/storage/icons/circle-solid.svg');
+        padding-left: 20px;
+    }
+    ul.action-list {
+        list-style: url('/storage/icons/star-solid.svg');
+        padding-left: 20px;
+    }
+}
+
+#preview {
+    width: 300px;
+    height: 200px;
+}
+
+.img-container {
+    width: 300px;
+    height: 200px;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.cropper-view-box, .cropper-face {
+    border-radius: 50%;
+}
+
+header {
+    background: url('/storage/welcome/header.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
